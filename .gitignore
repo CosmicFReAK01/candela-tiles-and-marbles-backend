@@ -1,0 +1,39 @@
+# Maven build artifacts
+target/
+*.jar
+*.war
+*.ear
+
+# Environment configuration & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+gc.log
+
+# IDE & OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Cryptographic keys, certs & keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Excluded dormant legacy microservice submodules (replaced by modular monolith)
+api-gateway/
+auth-service/
+product-service/
+inventory-service/
+media-service/
+content-service/
+enquiry-service/
